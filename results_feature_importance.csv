@@ -1,0 +1,12 @@
+feature,importance
+emb_diff_pca_0,79.815200
+perplexity_diff,5.065194
+cosine_similarity,4.889492
+ngram_kl_divergence,2.695257
+bigram_jaccard,2.308487
+flesch_reading_ease_diff,2.154819
+burstiness_diff,1.017925
+ttr_diff,0.908228
+word_count_diff,0.552417
+char_count_diff,0.341619
+punctuation_count_diff,0.251363
