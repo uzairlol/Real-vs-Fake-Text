@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains my solution for the Impostor Hunt Kaggle competition, where the goal is to classify whether `text_1` or `text_2` in each pair is human-written (1) or LLM-generated (2) across 1068 test pairs, using a small training set of 95 samples. My best public leaderboard score is **0.90663**, achieved using a CatBoost model with SciBERT embeddings, augmented by features like perplexity, bigram Jaccard, n-gram KL divergence, and burstiness. The solution addresses the label correction issue announced on July 7, 2025, which previously caused scores to drop from \~0.78–0.79 to \~0.44–0.45.
+This repository contains my solution for the Impostor Hunt Kaggle competition, where the goal is to classify whether `text_1` or `text_2` in each pair is real (1) or fake (2) across 1068 test pairs, using a small training set of 95 samples (both being LLM generated). My best public leaderboard score is **0.90663**, achieved using a CatBoost model with SciBERT embeddings, augmented by features like perplexity, bigram Jaccard, n-gram KL divergence, and burstiness. The solution addresses the label correction issue announced on July 7, 2025, which previously caused scores to drop from \~0.78–0.79 to \~0.44–0.45.
 
 ## Approach
 
